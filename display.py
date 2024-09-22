@@ -32,7 +32,7 @@ class Display:
                 anchor_point=(0.5, 0.0)
             )
         )
-        self.display.show(self.group)
+        self.display.root_group = self.group
 
     def sleep(self):
         self.display.auto_brightness = False

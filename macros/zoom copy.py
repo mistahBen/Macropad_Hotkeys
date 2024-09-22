@@ -5,12 +5,12 @@ from adafruit_hid.consumer_control_code import ConsumerControlCode
 from consumer import Toolbar
 
 app = {
-    'name' : 'Zoom',
-    'order' : 6,
+    'name' : 'CB ctrls',
+    'order' : 8,
     'macros' : [
         # COLOR    LABEL    KEY SEQUENCE
         # 1st row ----------
-        (0x540908, 'Audio  ', [Keycode.COMMAND, Keycode.SHIFT, Keycode.A]),
+        (0x540908, 'Sign_in', ["alexanderb", Keycode.RETURN, ]),
         (0x544408, 'Screen ', [Keycode.COMMAND, Keycode.SHIFT, Keycode.S]),
         (0x04541B, 'Video  ', [Keycode.COMMAND, Keycode.SHIFT, Keycode.V]),
         # 2nd row ----------

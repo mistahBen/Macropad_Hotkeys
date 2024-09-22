@@ -1,4 +1,3 @@
-
 import time
 import keyfactory
 from adafruit_macropad import MacroPad
