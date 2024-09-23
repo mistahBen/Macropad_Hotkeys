@@ -78,3 +78,28 @@ To do that, reboot the device using the boot switch on the left of the
 Macropad, and then after releasing the button immediately hold down the
 rotary encoder button. You should see the text "Mounting Read/Write" quickly
 appear on the screen, and then the CIRCUITPY drive will mount in read/write mode.
+
+# Required Libraries
+> available from https://github.com/adafruit/CircuitPython_Community_Bundle/releases
+
+adafruit_debouncer.mpy
+adafruit_display_shapes
+adafruit_display_text
+adafruit_hid
+adafruit_macropad.mpy
+adafruit_midi
+adafruit_pixelbuf.mpy
+adafruit_pixel_framebuf.mpy
+adafruit_pixelmap.mpy
+adafruit_simple_text_display.mpy
+adafruit_ticks.mpy
+asyncio
+circuitpython_csv.mpy
+displayio_listselect.mpy
+LICENSE
+multi_keypad.mpy
+neopixel.mpy
+neopixel_spi.mpy
+README.md
+simpleio.mpy
+toml
